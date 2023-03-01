@@ -1,0 +1,55 @@
+.chart1 {
+    flex: 4;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: gray;
+    display: flex;
+    height: 360px;
+  
+    .title {
+      margin-bottom: 20px;
+    }
+  
+    .chartGrid {
+      stroke: rgb(228, 225, 225);
+    }
+  }
+
+  
+  .summary {
+    margin-top: 20px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+    .item {
+      text-align: center;
+      width: 60%;
+
+      .itemTitle {
+        font-size: 14px;
+        color: gray;
+      }
+
+      .itemResult {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 14px;
+        justify-content: center;
+
+        &.products {
+          color: black;
+        }
+
+        &.followers {
+          color: black;
+        }
+      }
+    }
+  }
